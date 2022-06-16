@@ -1,0 +1,178 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0%;
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+
+
+    ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li.nav {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+  }
+  
+  li.nav a.nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li.nav a:hover {
+    background-color: #111;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+.logo {
+    width: 5%;
+    height: 5%;
+    margin-top: 0%;
+    margin-left: 0%;
+    
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+.footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: small;
+}
+
+
+  .imgr {
+    width: 100%;
+    height: auto;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.item {
+  align-self: center;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex>div {
+  flex: 1 0 50%;
+}
+
+.flex>div:first-child {
+  flex: 0 1 100%;
+}
+
+.Container {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  display: flex;
+  height: 50%;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.item {
+  width: 16em;
+  background-color: rgba(119, 136, 153, 0);
+  margin: 0 30px;
+  padding-right: 0%;
+}
+
+ul.navb {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li.navb a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li.navb a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li.navb a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+#footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background:#6cf;
+}
